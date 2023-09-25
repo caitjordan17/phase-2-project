@@ -1,8 +1,16 @@
-import React from "react"
+import React from "react";
+import NavBar from "./NavBar";
+import Bookcase from "./Bookcase";
+
 
 function App() {
+
+  
   return (
-    <div></div>
+    <div>
+        <NavBar />
+        <Bookcase />
+    </div>
   );
 }
 
